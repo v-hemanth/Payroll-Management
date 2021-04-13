@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<title>Add Employee</title>
+<body>
+<div class="w3-container" style="padding: 50px 200px 20px 200px">
+<form class="w3-container" action="empinfophp.php" method="post">
+<p><label>Employee id</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="number" name="empid"></p>
+<p>
+<label>Name</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="text" name="name">
+</p>
+<p>
+<label>Date of Birth</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="date" name="dob">
+</p>
+<p>
+<label>Gender</label><br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+</p>
+<p>
+<label>Joining date</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="date" name="sdate">
+</p>
+<p>
+<label>Email</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="email" name="email"></p>
+<p>
+<label>Phone</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="text" name="phone"></p>
+<label>Jobtitle</label>
+<select class="w3-input w3-light-grey w3-animate-input" name="jobtitle">
+<option value="executive">Executive</option>
+<option value="manager">Manager</option>
+<option value="director">Director</option>
+<option value="accountant">Accountant</option>
+<option value="chief">Chief</option>
+</select>
+<p><label>Bank Account No</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="number" name="bacc"></p>
+<p>
+<label>Address</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="text" name="address">
+</p>
+<p><label>Employee Department</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="number" name="depid"></p>
+<p><label>Managing Department</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="number" name="managedepid"></p>
+<input type="submit" value="Submit" class="w3-input w3-green w3-round-xxlarge w3-animate-input w3-hover-blue">
+</form>
+</div>
+</body></html>
