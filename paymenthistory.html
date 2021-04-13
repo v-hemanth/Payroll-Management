@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<title>Payment history</title>
+<body>
+<div class="w3-display-container w3-text-blue" style="font-size: 50px">
+<img src="images/banner.jpeg" alt="Lights" style="height: 100px ; width:100% ;object-fit:cover">
+<div class="w3-display-middle w3-large" > <h1 >Payroll Management system</h1></div>
+</div>
+<div class="w3-container" style="padding: 50px 200px 20px 200px">
+<form class="w3-container" action="employee-payhistoryshow.php" method="post">
+<p>
+<label>Select id to see payment history</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="number" name="id"></p>
+<input type="submit" value="generate" class="w3-input w3-green w3-round-xxlarge w3-animate-input w3-hover-blue">
+</form>
+</div>
+</body>
+</html>
