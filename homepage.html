@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome to Payroll</title>
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-light-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<div class="w3-container w3-dark-grey">
+<h4>Menu</h4>
+</div>
+<img src="payroll.jpg" alt="Snow" style="width:100%;padding-top: 15px;padding-bottom: 15px">
+<div class="w3-container w3-dark-grey">
+<h4>Payroll system</h4>
+<div class="w3-bar-block">
+<dl>
+<dt><a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-red">Home</a> </dt>
+<dt><a href="department.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Department</a> </dt>
+<dd></dd>
+<dt><a href="employee.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"> Employee </a></dt>
+<dt><a href="employee-setsalary.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Set salary</a> </dt>
+<dt><a href="employee-payment.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Set Payment</a> </dt>
+<dt><a href="employee-payslip.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Pay slip</a> </dt>
+<dt><a href="employee-payhistory.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Payment history</a> </dt>
+<dt><a href="index.php" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Log Out</a> </dt>
+</dl>
+</div>
+</nav>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:290px;margin-right:-10px;margin-top: -5px;margin-bottom: 0px">
+<!-- Header -->
+<div class="w3-display-container w3-text-blue" style="font-size: 50px">
+<img src="images/banner.jpeg" alt="Lights" style="height: 100px ; width:100% ;object-fit:cover">
+<div class="w3-display-middle w3-large" > <h1 >Payroll Management system</h1></div>
+</div>
+<div class="w3-display-container w3-text-white">
+<img src="home.jpg" alt="Lights" style="width:100%">
+<div class="w3-display-topmiddle" style="font-size: 20px"><p><br><br><br><h2><center>Welcome to payroll system</center></h2></p><br><center><h3>This is the homepage</h3></center></div>
+</div>
+</div>
+</body>
+</html>
