@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Employee payslip</title>
+<body>
+<div class="w3-container" style="padding: 50px 200px 20px 200px">
+<form class="w3-container" action="employee-payslipshow.php" method="post">
+<p>
+<label>Select Year</label>
+<input class="w3-input w3-light-grey w3-animate-input" type="number" name="year"></p>
+<p> <label>Select Month</label>
+<select class="w3-input w3-light-grey w3-animate-input" name="month">
+<option value="january">january</option>
+<option value="february">february</option>
+<option value="march">march</option>
+<option value="april">april</option>
+<option value="may">may</option>
+<option value="june">june</option>
+<option value="july">july</option>
+<option value="august">august</option>
+<option value="september">september</option>
+<option value="october">october</option>
+<option value="november">november</option>
+<option value="december">december</option>
+</select>
+</p>
+<input type="submit" value="generate" class="w3-input w3-green w3-round-xxlarge w3-animate-input w3-hover-blue">
+</form>
+</div>
+</body>
+</html>
